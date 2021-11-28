@@ -6,11 +6,13 @@ class App(QWidget):
 
     def __init__(self):
         super().__init__()
-        self.title = 'Image Compressor by Mert'
+        self.title = 'Image Compressor by Mert' # window title
         self.left = 10
         self.top = 10
-        self.width = 640
-        self.height = 480
+        self.width = 400 # setting window size to 400x600
+        self.height = 600
+        self.setFixedSize(self.width, self.height) # disable window expanding
+        self.setStyleSheet("background-color:black") # change background color to black
         self.initUI()
         
     def initUI(self):
