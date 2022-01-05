@@ -10,5 +10,5 @@
     min-height : 125px;
     max-width : 300px;
     max-height : 125px;
-    border-radius : 10px;
+    border-radius : 20px;
 }
