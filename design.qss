@@ -2,3 +2,13 @@
 {
     background-color:black;
 }
+
+#bubble
+{
+    background-color:#202020;
+    min-width : 300px;
+    min-height : 125px;
+    max-width : 300px;
+    max-height : 125px;
+    border-radius : 10px;
+}

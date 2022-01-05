@@ -1,8 +1,8 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget
+from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow, QFrame
 from PyQt5.QtGui import QIcon
 
-class App(QWidget):
+class App(QMainWindow):
 
     def __init__(self):
         super().__init__()
@@ -23,6 +23,11 @@ class App(QWidget):
     def initUI(self):
         self.setWindowTitle(self.title)
         self.setGeometry(self.left, self.top, self.width, self.height)
+
+        self.single_bubble = QFrame(self) # create frame named single_bubble
+        self.single_bubble.setObjectName("bubble") # connect with qss
+        self.single_bubble.move(50, 100)
+
         self.show()
     
 if __name__ == '__main__':
