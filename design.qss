@@ -12,3 +12,17 @@
     max-height : 125px;
     border-radius : 20px;
 }
+
+#bubble_heading
+{
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+}
+
+#bubble_para
+{
+    color:white;
+    font-size:12px;
+    padding-right:10px;
+}
