@@ -24,9 +24,15 @@ class App(QMainWindow):
         self.setWindowTitle(self.title)
         self.setGeometry(self.left, self.top, self.width, self.height)
 
+        #=================MAIN WINDOW=================
+
         self.single_bubble = QFrame(self) # create frame named single_bubble
         self.single_bubble.setObjectName("bubble") # connect with qss
         self.single_bubble.move(50, 100)
+
+        self.multiple_bubble = QFrame(self) # create frame named multiple_bubble
+        self.multiple_bubble.setObjectName("bubble") # connect with qss
+        self.multiple_bubble.move(50, 275)
 
         self.show()
     
