@@ -42,12 +42,12 @@ class App(QMainWindow):
         
         self.single_bubble_heading = QLabel(self.single_bubble)
         self.single_bubble_heading.setObjectName("bubble_heading")
-        self.single_bubble_heading.setText("Compress Image")
+        self.single_bubble_heading.setText("Compress an Image")
         self.single_bubble_heading.move(90, 8)
 
         self.single_bubble_para = QLabel(self.single_bubble)
         self.single_bubble_para.setObjectName("bubble_para")
-        self.single_bubble_para.setText("Click here to compress single image!")
+        self.single_bubble_para.setText("Click here to compress a single image!")
         self.single_bubble_para.move(25, 32)
 
 
@@ -63,7 +63,7 @@ class App(QMainWindow):
         self.dir_bubble_heading.move(55, 8)
 
         self.dir_bubble_para = QLabel(self.dir_bubble)
-        self.dir_bubble_para.setText("Want to compress multiple images at once? select the folder and get compressed version of the images in another folder.")
+        self.dir_bubble_para.setText("Want to compress multiple images at once? Select the folder and get compressed version of the images in another folder.")
         self.dir_bubble_para.setWordWrap(True)
         self.dir_bubble_para.setObjectName("bubble_para")
         self.dir_bubble_para.move(10, 32)
