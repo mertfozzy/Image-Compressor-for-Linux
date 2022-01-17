@@ -15,6 +15,8 @@ import PIL
 import time
 import sys, os
 
+#os.chdir(sys._MEIPASS)
+
 class App(QMainWindow):
 
     def __init__(self):
